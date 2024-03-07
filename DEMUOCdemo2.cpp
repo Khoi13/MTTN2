@@ -80,6 +80,7 @@ int main()
 
     cin >> n >> a >> b;
 
+    sieve();
     solve(n, a, b);
     // cout << isPrime(6);
 }
